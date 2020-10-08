@@ -12,7 +12,9 @@ deploy:
   skip-cleanup: true
   keep-history: true
   github_token: $GITHUB_TOKEN
-  api_key: 58b62f1a-2c6c-4c10-bed0-d47aa2a7deba
+  api_key: 
+    secure:
+      "APA55UoiV9a3gFIiyKVS5vaq2IePU0FNinA/GN4V3qif9hxiaPZJQMk9Eib6KB5REtDmp8l+amPAAAcwTsGF6o9oDH+sFFEropnP9mq0tLWiI3uIzrCduKX1ncLdUwxq86vMjfdAiY8VeLD2aGnOS+4IGneB/eSgYj3XSqvp2ymoRkgvMO1xzH6QLkvb+8ruD5v9b+AjpW+ZX0FOtavFVpQAhCvai0omXmiPKwKE/zJdyewq9u5z5C7ohzi7BXinNo89WdwJ3SBdjnRrzRnTOqKR7eooK+fJDMCXqjAqIGNOrQE45st6rI0uOXFxXjSjziMHQz2vRQZZMQ4SxD5LrIqh1U6aMuZk2cxk3S6XqSljroIGwLZs5ODtGoJJmYbZpG36lw02stg15Z5WmmI1yoDsxpOKDd0IrW2qnyk7RAcQfCj/QHSx2elIi9P6/18oulnk916kjhm0deT25/CtzLEfxvhqnrBQHWqOP5buzg4YoeMnuuW8u4Vdm1eO881h2solC9ikRq/2J6iQeDPr442V/+TFbPwGETsGwuI6En1/5+Or8/sZfRFzNm0dJtIo1WUWppqoYLnEMT2Klm2Wrpb0iaYkHdGsqZTWRMjgyM2s/EZ+NrMR7/I28Pdt2Faqb4YlVz8M9gToeNELGUUMStT4tZUUBaXh6CsUyDNN2No="
   app: KrlosAren/krlosaren.backend
 
   on:
