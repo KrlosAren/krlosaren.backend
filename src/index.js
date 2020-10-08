@@ -1,10 +1,10 @@
 const express = require('express')
-const port = process.env.PORT || 3000;
 const app = express()
+const port = process.env.PORT || 3500;
 
 
-const projects = require('../routes/projects')
-const projectsID = require('../routes/projectId')
+const projects = require('./routes/projects')
+const projectsID = require('./routes/projectId')
 
 app.get('/', (req, res) => {
   let userInfo = req.header("user-agent");
