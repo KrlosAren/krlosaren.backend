@@ -1,21 +1,8 @@
-lenguaje: node_js
-cache:
-  directories:
-  - node_modules
-  - "~/.npm"
-node_js:
-- '14'
-git:
-  depth: 3
-script:
-- yarn test
 deploy:
   provider: heroku
-  skip-cleanup: true
-  keep-history: true
-  github_token: "$GITHUB_TOKEN"
   api_key:
-    secure: ZQ/LNU4m+z4IM+Q/T0rpc0hfsJHbgxJxjZownkyzcC/z+kSopOQIJYSgTXljKMf21maqXbHlSnvhFOPz8rHHavXhlrbh/L9epu+TlmHGs1JoPLNNdd5c9dAegnRZsy9WsofOmgMc0fR2q4D2JtAQWpfVirUDmuRKEZldH8gMhiBkOJ6CklTjK0yUQndqMBAzqT97lgd8MMpexFm7iHPIKhxr6LB2GJ0y5NPOXYIbIkZuoNz8yu4mWThypacSqMSd0jSSkz8+Nw5BXt9glmZC/yfUTJEETpZYuKRSYB9FFtlkH/tHfULkuj5cUugsp05mcls0oE7MNPes9BCe8zVw67qURbazkzA1xN/7BSpnwYOiu/q17gXzYceZdpSFj/Opkl6l64ygAiSjOjIqKnQGrRWa1Fm/h7VqJ6O/lBZaOhNoEX6GIFfMTryaXIzUkcUUD9sXkEU7mR3TGg8lsYWEbr1FD/CnUNxS09f4ggzgLHqyAnyMWhrJc9hbXKahwkCrSwIowuzDkordFZIU8yLHLSnIgaWmvxhWqGAKfuEYKCOGJew3GRhVQJ7YpFYOoZTdeKoDjnvq7MZRsDFPy6016ObOleIoOdyQlnC/SIZc8A+9j3S6LF2Flt1D/7hdzH5OWtzO+7WreE49svPVAUrVSq1OqN7X/g66auqhYCPsONU=
-  app: krlosaren-backend
+    secure: OX52VsXwrQo65Se8wZDu2Eusxc+3ZYxqcbQMljmJwM4eUmwDAHx5SGtSdnp/QrZmOQkVwusQh/14ys9Y/tkx6eFEJ27y0B1fkePvnHZyEFZ6BrwUUUVuDKNxLuWboff6FPZAZSgt+GgVku1QHJL7CwNiUN3kk+SnXzOsx4MW9wYKWaRdHSGObc+9bAZ64FgkX8x4U/veSzeXjH6NB+XlbgshCoW9vvSRU3ZDXLWNE7S2IyY6I6u7DLH9ZdRNLU53R3mqG0r1FrHHRkU2jCGt/zjQfqrpjcYqLt/khz2E3X2JWcKR6kX2foWWPav/yxB0oR8FCVI3jqs6fUrjJCqFfrRfM2cY8P0PS5HnRTaCMSTDLD6CUWi6///PFN+HllW/oAzakBBWxcR35AC5MpZFfNxJzajKxpZIlT8Upr2JJWTj/pnnujlRBeVaYAuLsRXy/VSCFZjgxGX+oaUuJsxuavfxWvd13X1RxglFhzh6Gj3KViIyF7snEzE5E4gCEspsj4UAsdCweYyDrb0wmRJ86JeI9pdNufl5dEELobwD3RobHT9D0o1YoPm+01IcXD9Su0yKppziQUfrIZDFKosfdhyE4AmmrsUfIcF0/S28iQxOmGcvLUKiVwl9TPBpdw8DOsIZ9p0ad33cXanvakGhljACQ+aeJyFCoQZwYkcPoZg=
+  app: krlosaren.backend
   on:
     repo: KrlosAren/krlosaren.backend
+  skip_cleanup: true
