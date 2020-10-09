@@ -3,7 +3,7 @@ const db = require('../server/db.json');
 
 function projects(app) {
   app.get('/projects', (req, res) => {
-    return res.send(db);
+    return res.send(db.projects);
   });
 }
 
